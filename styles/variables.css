@@ -4,9 +4,14 @@
 */
 :root
 {
+  /* Default color scheme */
   --bg-color: #000028;
   --accent-color: #FF0070;
   --text-color: #F1B2CE;
   --heading-color: #DB00FF;
   --cover-banner: url(`../images/cover-image-dark.png`);
+  /* App-wide typography */
+  --font-family: 'IBM Plex mono', monospace;
+  --font-size: 1.125rem;
+  --line-height: 1.3;
 }
