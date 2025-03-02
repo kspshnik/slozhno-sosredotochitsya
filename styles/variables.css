@@ -15,9 +15,10 @@
   --font-size: 1.125rem;
   --line-height: 1.3;
   --heading-font-size: 7.25rem;
-  --header-margin: clamp(2.5rem, 1.3073rem + 5.0891vw, 3.75rem);
-  --section-padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
-  --section-gap: clamp(3.125rem, 1.3359rem + 7.6336vw, 5rem);
+  --section-gap: clamp(2.5rem, 1.3073rem + 5.0891vw, 3.75rem);
+  --section-indent: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
+  --articles-gap: clamp(3.125rem, 1.3359rem + 7.6336vw, 5rem);
+  --header-inline-size: calc(clamp(42.375rem, 21.7405rem + 88.0407vw, 64rem) - 2 * var(--section-indent));
 }
 
 @media screen and (375px <=inline-size < 768px)
