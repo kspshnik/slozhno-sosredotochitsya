@@ -304,6 +304,15 @@
   grid-column: 1/1;
 }
 
+.footer
+{
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  min-block-size: var(--header-inline-size);
+}
+
 @media screen and (inline-size >=786px)
 {
   .gallery__photo-grid
