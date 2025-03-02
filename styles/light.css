@@ -13,6 +13,11 @@
   --cover-banner: url('../images/cover-image-light.png');
 }
 
+.page .theme_light .header__embellishment
+{
+  display: none;
+}
+
 @media (prefers-color-scheme: light)
 {
   :root
@@ -23,4 +28,11 @@
     --heading-color: #FFC2E6;
     --cover-banner: url('../images/cover-image-light.png');
   }
+
+  .header__embellishment
+  {
+    display: none;
+  }
+
+
 }
