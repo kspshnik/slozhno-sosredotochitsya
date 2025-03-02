@@ -14,3 +14,28 @@
   background-attachment: fixed;
   height: 100vh;
 }
+
+.heading
+{
+  font-size: var(--heading-font-size);
+  color: var(--heading-color);
+  text-align: start;
+  text-shadow: 4px 4px 0 var(--accent-color);
+}
+
+.heading_shadow_small
+{
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+.accent__background
+{
+  color: var(--bg-color);
+  background-color: var(--accent-color);
+}
+
+.subheading
+{
+  color: var(--accent-color);
+  font-weight: 700;
+}
