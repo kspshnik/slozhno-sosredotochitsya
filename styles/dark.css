@@ -10,5 +10,5 @@
   --accent-color: #FF0070;
   --text-color: #F1B2CE;
   --heading-color: #DB00FF;
-  --cover-banner: url(`../images/cover-image-dark.png`);
+  --cover-banner: url('../images/cover-image-dark.png');
 }

@@ -10,7 +10,7 @@
   --accent-color: #FF8DC8;
   --text-color: #353430;
   --heading-color: #FFC2E6;
-  --cover-banner: url(`../images/cover-image-light.png`);
+  --cover-banner: url('../images/cover-image-light.png');
 }
 
 @media (prefers-color-scheme: light)
@@ -21,6 +21,6 @@
     --accent-color: #FF8DC8;
     --text-color: #353430;
     --heading-color: #FFC2E6;
-    --cover-banner: url(`../images/cover-image-light.png`);
+    --cover-banner: url('../images/cover-image-light.png');
   }
 }
