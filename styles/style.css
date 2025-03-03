@@ -158,6 +158,7 @@
 
 .header__embellishment
 {
+  display: var(--embellishment-display);
   position: absolute;
   line-height: 1.3889;
   text-transform: uppercase;
@@ -313,7 +314,7 @@
   min-block-size: var(--header-inline-size);
 }
 
-@media screen and (inline-size >=786px)
+@media screen and (min-inline-size >=786px)
 {
   .gallery__photo-grid
   {
