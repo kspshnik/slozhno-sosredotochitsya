@@ -20,6 +20,7 @@
   --articles-gap: clamp(3.125rem, 1.3359rem + 7.6336vw, 5rem);
   --gallery-gap: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
   --header-inline-size: calc(clamp(42.375rem, 21.7405rem + 88.0407vw, 64rem) - 2 * var(--section-indent));
+  --embellishment-display: block;
 }
 
 @media (375px <=inline-size < 768px)

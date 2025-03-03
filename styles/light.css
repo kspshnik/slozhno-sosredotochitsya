@@ -11,6 +11,7 @@
   --text-color: #353430;
   --heading-color: #FFC2E6;
   --cover-banner: url('../images/cover-image-light.png');
+  --embellishment-display: none;
 }
 
 .page .theme_light .header__embellishment
@@ -27,6 +28,7 @@
     --text-color: #353430;
     --heading-color: #FFC2E6;
     --cover-banner: url('../images/cover-image-light.png');
+    --embellishment-display: none;
   }
 
   .header__embellishment
