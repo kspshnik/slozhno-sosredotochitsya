@@ -2,11 +2,13 @@
 
 *,
 *::before,
-*::after {
+*::after
+{
   box-sizing: border-box;
 }
 
-body {
+body
+{
   min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0 auto;
@@ -18,23 +20,32 @@ h3,
 h4,
 h5,
 h6,
-p {
+p
+{
   margin: 0;
+  padding: 0;
+  color: currentColor;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }
 
-ul {
+ul
+{
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-picture {
+picture
+{
   margin: 0;
   padding: 0;
 }
 
 button,
-a {
+a
+{
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
